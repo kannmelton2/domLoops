@@ -1,3 +1,18 @@
 body {
     background-color: darkcyan;
+    text-align: center;
+}
+
+/* FLEX CONTAINER */
+#dino-barn {
+ display: flex;
+ justify-content: center;
+}
+
+/* FLEX ITEMS */
+.dinosaur {
+    border: 1px #333 solid;
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
 }
